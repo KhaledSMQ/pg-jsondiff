@@ -1,0 +1,8 @@
+# pg_json_diff extension
+comment = 'JSON diff, patch, and merge functions using RFC 6902 and RFC 7386'
+default_version = '1.0'
+module_pathname = '$libdir/pg_json_diff'
+relocatable = true
+requires = ''
+author = 'Khaled Sameer <khaled.smq@hotmail.com>'
+

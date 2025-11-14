@@ -1,0 +1,38 @@
+# Build artifacts
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+
+# Object files
+src/*.o
+
+# PostgreSQL regression test artifacts
+regression.diffs
+regression.out
+results/
+tmp_check/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+
+# Generated files
+*.log
+*.tmp
+
