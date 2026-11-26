@@ -4,5 +4,4 @@ default_version = '1.0'
 module_pathname = '$libdir/pg_json_diff'
 relocatable = true
 requires = ''
-author = 'Khaled Sameer <khaled.smq@hotmail.com>'
 
